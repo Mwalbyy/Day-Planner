@@ -1,9 +1,10 @@
+//code for the date and time on the header of the page.
 let todayDay = moment().format("dddd, MMM Do YYYY");
 let timeNow = moment().format("h:mm A");
 $("#currentDay").html(todayDay);
 
 $("#currentTime").html(timeNow);
-
+//code for the save button
 $(document).ready(function () {
   $(".saveBtn").on("click", function () {
     console.log("Hello");
@@ -35,7 +36,8 @@ function Clock() {
   });
 }
 
-[1,2,3,4,5,6,7,8,9].forEach(hour => {
+[1, 2, 3, 4, 5, 6, 7, 8, 9].forEach((hour) => {
   $(`#hour${hour} .description`).val(localStorage.getItem(`hour${hour}`));
-})
+});
+
 Clock();
