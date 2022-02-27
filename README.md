@@ -1,5 +1,5 @@
 # Day-Planner
-# How to enter data the planner
+# How to enter data into the planner
 ### The user can click on the time slot where they want to add something to their schedule and type out what ever they want.
 # How to save your items
 ### The user can then save the item by clicking the save icon, making the info on the page remain even after refreshing to page.
